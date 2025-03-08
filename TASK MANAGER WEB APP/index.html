@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager Web App - for professional</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-body">
+        <div class="upper-body">
+          <input
+            type="text"
+            placeholder="Add Your Tasks..."
+            class="tasks"
+            id="task"
+          />
+          <input type="date" class="durations" id="duration" />
+          <button class="add-task" id="add">ADD TASK</button>
+        </div>
+        <div class="lower-body">
+          <table class="table-data" id="append">
+            <tr>
+              <th>No.</th>
+              <th><span>Tick As Complete</span></th>
+              <th>Tasks</th>
+              <th>Duration</th>
+              <th>Update</th>
+              <th>Delete</th>
+            </tr>
+            <!-- <tr>
+              <td>1</td>
+              <td><input type="checkbox"></td>
+              <td class="change-width">
+                complete your homework complete your homework complete your
+                homework complete your homework complete your homeworkcomplete
+                your homework
+              </td>
+              <td>15-03-2024</td>
+              <td><button class="btn" id="edit">edit</button></td>
+              <td><button class="btn">Delete</button></td>
+            </tr> -->
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
