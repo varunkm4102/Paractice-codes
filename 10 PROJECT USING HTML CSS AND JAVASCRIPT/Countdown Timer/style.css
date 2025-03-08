@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(snow.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: 700;
+    font-size: 4rem;
+    margin-top: 5rem;
+    animation: myanimation3 1s infinite ease-in-out;
+}
+.contdown-container{
+    display: flex;
+}
+
+.big-text{
+    font-weight: 800;
+    font-size: 6rem;
+    line-height: 2;
+    margin: 0 2rem;
+    animation: myanimation 2s infinite step-end;
+}
+.countdown-el{
+    text-align: center;
+}
+.countdown-el span{
+    font-size: 1.5rem;
+    animation: myanimation 2s infinite step-end;
+}
+.countdown-changer{
+    height: 3rem;
+    width: 20rem;
+    outline: none;
+    background: transparent;
+    border: 3px solid #9f9898;
+    border-radius: .17rem;
+    padding-left: 1rem;
+    animation: myanimation2 .5s infinite ease-in-out;
+}
+.countdown-changer::placeholder{
+    color: rgb(72, 63, 63);
+    padding-left: 3.5rem;
+}
+.count-container button{
+    height: 3rem;
+    width: 6.5rem;
+    background: transparent;
+    border: 3px solid #9f9898;
+    border-radius: .17rem;
+    cursor: pointer;
+    font-size: 1rem;
+    animation: myanimation2 .5s infinite ease-in-out;
+}
+.count-container button:hover{
+    background-color: rgb(28, 26, 26);
+    color: #ffff;
+    transition: .5s ease-in-out;
+    animation: none;
+}
+
+
+@keyframes myanimation {
+    0%{color: #bcaaaa;}
+    25%{color: #691fe9;}
+    50%{color: #12dfdf;}
+    75%{color: #f90d0d;}
+    100%{color: #d8d527;}    
+}
+@keyframes myanimation2 {
+    0%{border-top-color: #f76a13;}
+    25%{border-right-color: #331fe9;}
+    50%{border-bottom-color: #17d6e8;}
+    75%{border-left-color: #97f40c;}
+    100%{border-color: #555150;}    
+}
+@keyframes myanimation3 {
+    0%{color: #f76a13;}
+    25%{color: #331fe9;}
+    50%{color: #17d6e8;}
+    75%{color: #97f40c;}
+    100%{color: #555150;}    
+}
