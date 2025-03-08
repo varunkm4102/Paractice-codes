@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(96, 89, 229);
+    width: 100%;
+    height: 100vh;
+    
+}
+.container h1{
+    text-align: center;
+    color: rgb(68, 245, 109);
+    position: relative;
+    top: 8rem;
+    font-size: 3rem;
+}
+.alarm-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.alarm-container input{
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.5rem;
+    outline: none;
+    padding: 0rem 1rem;
+}
+.alarm-container button{
+    padding: 1rem 3rem;
+    background-color: rgb(20, 20, 244);
+    border: 1px solid #ffff;
+    color: #ffff;
+    cursor: pointer;
+}
