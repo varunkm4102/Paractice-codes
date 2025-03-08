@@ -1,0 +1,25 @@
+.left-article{
+    width: 50%;
+    /* background-color: red; */
+    height: 300px;
+    padding: 0px 15px;
+}
+.right-article{
+    width: 50%;
+    background-color: black;
+    height: 300px;
+}
+.article-container{
+    display: flex;
+}
+.left-article-header{
+    display: flex;
+    border-bottom: 3px solid var(--bg-color);
+    border-radius: 5px;
+}
+.left-article-header button{
+    margin-left: 100px;
+}
+.left-article-header h2{
+    padding: 13px 24px;
+}

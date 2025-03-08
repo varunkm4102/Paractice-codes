@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+}
+
+.register-con {
+  padding-top: 0.5rem;
+  padding-left: 1.001rem;
+  background-color: #fff;
+  width: 26rem;
+  position: absolute;
+  top: 5rem;
+  right: 32rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 22px -3px;
+  display: none;
+}
+.register-con img{
+  position: absolute;
+  right: 1rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.register-con h2 {
+  padding-top: 0.5rem;
+  letter-spacing: 0.1rem;
+}
+.register-con h4 {
+  padding-top: 0.3rem;
+  font-weight: 100;
+  color: #9a9898;
+}
+.register-con hr {
+  width: 24rem;
+}
+.register-con form .mobile-pass input {
+  height: 2.4rem;
+  width: 96%;
+  outline: none;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border: 1px solid #b6b5b5;
+  border-radius: 3px;
+}
+.register-con form .user-names input {
+  height: 2.4rem;
+  width: 47.4%;
+  padding-left: 1rem;
+  outline: none;
+  border: 1px solid #b6b5b5;
+  border-radius: 3px;
+}
+.register-con form .dob h5 {
+  padding-top: 1rem;
+  font-weight: 200;
+  padding-bottom: 0.2rem;
+}
+.register-con form .dob input {
+  height: 2.4rem;
+  width: 31%;
+  padding-left: 1rem;
+  outline: none;
+  border: 1px solid #b6b5b5;
+}
+.register-con form .gender .dob-flex {
+  display: flex;
+}
+.register-con form .gender .gender-m {
+  border: 1px solid #b6b5b5;
+  height: 2.4rem;
+  width: 30.4%;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+.register-con form .gender h5 {
+  padding-top: 1rem;
+}
+.register-con form .gender .gender-m input {
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.register-con h3 {
+  font-size: 0.8rem;
+  font-weight: 100;
+  padding: 0.5rem 0rem;
+  color: #b6b5b5;
+}
+.register-con button {
+  height: 2.4rem;
+  width: 11rem;
+  border: none;
+  border-radius: 3px;
+  margin: 1rem 6rem;
+  cursor: pointer;
+  background-color: #42b72a;
+  color: #fff;
+}
+.register-con button:hover {
+  background-color: #2d8a1b;
+  color: #ffff;
+  transition: 0.5s ease-in-out;
+}
+.register-con p {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #ffff;
+}
+
+.login-con {
+  padding-top: 0.5rem;
+  padding-left: 1.001rem;
+  background-color: #fff;
+  height: 22.5rem;
+  width: 24rem;
+  margin: auto;
+  margin-top: 7rem;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 22px -3px;
+  /* display: none; */
+}
+.login-con form input {
+  height: 3.4rem;
+  width: 22rem;
+  outline: none;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  border: 1px solid rgb(171, 165, 165);
+  border-radius: 3px;
+}
+.login-con form input:focus {
+  border: 1px solid rgb(39, 36, 36);
+}
+.login-con form button {
+  text-align: center;
+  height: 2.7rem;
+  width: 96%;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0866ff;
+  color: #ffff;
+  font-size: 20px;
+}
+.login-con form button:hover {
+  background-color: #2c79f5;
+  color: #ffff;
+  transition: 0.5s ease-in-out;
+}
+.login-con a {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  cursor: pointer;
+  color: #0646ae;
+  position: relative;
+  top: 1.1rem;
+  left: 6.5rem;
+}
+.login-con a:hover {
+  text-decoration: underline;
+}
+
+.main-container {
+  display: flex;
+  height: 41.5rem;
+  background-color: #e0e2e575;
+}
+.header-text {
+  background-color: transparent;
+  width: 50%;
+}
+.header-text img {
+  height: 106px;
+  position: relative;
+  top: 9rem;
+  left: 10rem;
+}
+.header-text h2 {
+  font-size: 28px;
+  font-weight: normal;
+  position: relative;
+  top: 8rem;
+  left: 12rem;
+  width: 72%;
+}
+.login-con .create_btn {
+  height: 2.9rem;
+  width: 12rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  color: #ffff;
+  background-color: #42b72a;
+  margin-top: 1rem;
+  margin-left: 4.7rem;
+  cursor: pointer;
+}
+.login-con hr {
+  width: 22rem;
+}
+.authenticate-con {
+  background-color: transparent;
+  width: 50%;
+  padding-right: 11rem;
+  padding-top: 1rem;
+}
+.authenticate-con p {
+  padding: 2rem 5rem;
+}
+.authenticate-con span {
+  color: black;
+  font-weight: 600;
+}

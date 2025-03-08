@@ -1,0 +1,454 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inconsolata&family=Mulish:wght@300&family=Open+Sans&family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color1: #3498db;
+  --background-color2: #fff;
+  --background-color3: #f1f1f1;
+  --hover-color: #ced9e2;
+  --font-family1: "Caveat", cursive;
+  --font-family2: "Inconsolata", monospace;
+  --font-family3: "Mulish", sans-serif;
+  --font-family4: "Open Sans", sans-serif;
+  --font-family5: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #ebe6e6;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--background-color1);
+  padding: 0.8rem;
+}
+.header-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-icon img {
+  width: 4.6rem;
+  /* height: 1.8rem; */
+  margin-bottom: -0.5rem;
+}
+.plus-icon a {
+  text-decoration: none;
+  font-size: 0.6rem;
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  color: #ffff;
+}
+.plus-icon a:hover {
+  text-decoration: underline;
+}
+._2FVHGh {
+  color: #ffe500;
+}
+.inputstyle {
+  margin: 0rem 1rem;
+}
+.inputstyle form input {
+  height: 2.5rem;
+  width: 30rem;
+  flex: 1;
+  padding: 0.5em;
+  border: none;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  outline: none;
+}
+.inputstyle form button {
+  height: 2.5rem;
+  width: 4rem;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+.inputstyle form {
+  display: flex;
+  align-items: center;
+}
+.profile-container {
+  background-color: rgb(254, 254, 254);
+  width: 14rem;
+  border-radius: 0.2rem;
+  position: fixed;
+  left: 46rem;
+  box-shadow: 0px 0px 8px black;
+  display: none;
+  z-index: 1;
+}
+.edge {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent #fbfafa transparent;
+  transform: rotate(360deg);
+  position: relative;
+  left: 5.5rem;
+  top: -0.5rem;
+}
+.main {
+  margin: 0rem 0.6rem;
+  height: 2.9rem;
+}
+.main button {
+  padding: 0.5rem 2rem;
+  background-color: white;
+  color: #2874f0;
+  font-weight: bolder;
+  border: none;
+  border-radius: 0.1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+.new-customer h4 {
+  font-family: sans-serif;
+}
+.new-customer a {
+  text-decoration: none;
+  margin-left: 8rem;
+  color: #2874f0;
+  font-family: sans-serif;
+}
+.new-customer a:hover {
+  text-decoration: underline;
+}
+.new-customer {
+  border-bottom: 1px solid rgb(234, 219, 219);
+  padding: 0.5rem 0.3rem;
+}
+.profile {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.profile svg {
+  color: rgb(255, 255, 255);
+  width: 1.2rem;
+  background-color: #2874f0;
+  border-radius: 10rem;
+}
+.profile span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.supercoin {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.supercoin img {
+  width: 1.2rem;
+}
+.supercoin span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  align-items: center;
+  cursor: pointer;
+}
+.flipcartplus {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.flipcartplus span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.order {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.order img {
+  width: 1.2rem;
+  color: yellow;
+}
+.order span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.wishlist {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.wishlist svg {
+  width: 1.2rem;
+}
+.wishlist span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.coupon {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.coupon img {
+  width: 1.5rem;
+}
+.coupon span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.giftcard {
+  padding: 1rem 0.8rem;
+  border-bottom: 1px solid rgb(234, 219, 219);
+}
+.giftcard img {
+  width: 1.2rem;
+}
+.giftcard span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.notifications {
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0.5rem;
+}
+.notifications svg {
+  width: 1.1rem;
+}
+.notifications span {
+  font-family: sans-serif;
+  padding: 0rem 0.5rem;
+  cursor: pointer;
+}
+.Hclass:hover {
+  background-color: rgb(234, 222, 222);
+}
+.Seller {
+  margin: 0rem 0.6rem;
+}
+.Seller p {
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.more {
+  margin: 0rem 0.6rem;
+  cursor: pointer;
+}
+.more span {
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: 600;
+}
+.zZ3yfL {
+  transform: rotate(270deg);
+}
+.notification-p svg {
+  width: 1.3rem;
+}
+.more-container {
+  background-color: red;
+  z-index: -1;
+}
+.cart {
+  margin: 0rem 1rem;
+}
+.cart span {
+  color: white;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.twenty-four-sevices {
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+.twenty-four-sevices img {
+  width: 1.5rem;
+}
+.twenty-four-sevices span {
+  font-family: sans-serif;
+}
+.advertise {
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+.advertise img {
+  width: 1.5rem;
+}
+.advertise span {
+  font-family: sans-serif;
+}
+.download {
+  /* border-bottom: 2px solid black; */
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+.download span {
+  font-family: sans-serif;
+}
+.download img {
+  width: 1.5rem;
+}
+.m-margin {
+  margin: 0.5rem;
+}
+.p-padding {
+  padding: 0rem 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.more-hover-element {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 13.5rem;
+  height: 12.3rem;
+  box-shadow: 0px 0px 8px black;
+  margin-left: 60.5rem;
+  font-size: 0.9rem;
+  display: none;
+}
+.edge2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 20px 20px 20px;
+  border-color: transparent transparent rgb(255, 255, 255) transparent;
+  transform: rotate(360deg);
+  position: relative;
+  left: 5.5rem;
+  top: -0.7rem;
+}
+.product-container {
+  height: 8rem;
+  width: 8.2rem;
+  /* background-color: #ffe500; */
+  /* margin: 0rem 1rem; */
+  text-align: center;
+}
+.grocery-img {
+  padding-left: 0.8rem;
+}
+.grocery-img img {
+  height: 4rem;
+  width: 4rem;
+}
+.product-container p {
+  font-family: sans-serif;
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 530;
+}
+.product-container:hover {
+  color: #2874f0;
+  cursor: pointer;
+}
+.product-header {
+  margin: 1rem;
+  width: 84rem;
+  height: 10rem;
+  display: flex;
+  padding-left: 5.4rem;
+  padding-top: 0.8rem;
+  background-color: var(--background-color2);
+  border-radius: 4px;
+}
+
+.hover-pro-container {
+  position: absolute;
+  display: none;
+  left: 12rem;
+  top: 14rem;
+}
+.hidable-container {
+  display: flex;
+}
+.hover-pro-list {
+  padding: 0.8rem 1rem;
+}
+.hover-pro-list:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+  font-weight: 700;
+}
+.hovered-pro {
+  width: 15rem;
+  background-color: var(--background-color3);
+  font-family: var(--font-family3);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.hovered-show {
+  width: 15rem;
+  height: 40rem;
+  background-color: var(--background-color2);
+  box-shadow: -1px 5px 9px 1px;
+  font-family: var(--font-family3);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1rem 0.5rem;
+  /* overflow-y: scroll; */
+}
+.mens-top {
+  width: 15rem;
+  padding: 1rem;
+  display: block;
+}
+.hovered-show h1 {
+  font-size: 1rem;
+}
+.hovered-show p {
+  padding: 0.7rem;
+  margin-top: 0.5rem;
+}
+.hovered-show p:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+.mens-bottom {
+  height: 100%;
+  width: 15rem;
+  display: none;
+  position: absolute;
+}
+
+.hovered-show div{
+  display: none;
+}
+
+
+/* .women-ethnic {
+  display: none;
+}
+.women-western {
+  display: none;
+}
+.men-Footwear {
+  display: none;
+}
+.women-Footwear {
+  display: none;
+}
+.accessories {
+  display: none;
+}
+.bag-laggages {
+  display: none;
+}
+
+.kid {
+  display: none;
+}
+.essentials {
+  display: none;
+}
+.winter {
+  display: none;
+} */

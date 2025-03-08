@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flipcart</title>
+    <script
+      src="https://kit.fontawesome.com/1553cdc8ce.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-body">
+          <div class="icon">
+            <div class="flip-icon">
+              <a href="#">
+                <img
+                  src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                  alt="flipcart"
+                />
+              </a>
+            </div>
+            <div class="plus-icon">
+              <a class="_21ljIi" href="#"
+                >Explore <span class="_2FVHGh">Plus</span>
+                <img
+                  width="10"
+                  src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+              /></a>
+            </div>
+          </div>
+          <div class="inputstyle">
+            <form action="">
+              <input
+                type="text"
+                placeholder="Search for products, brands and more"
+              />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <div
+            class="main"
+            onmouseover="showOptions()"
+            onmouseleave="hideElement()"
+          >
+            <button
+              type="button"
+              onmouseover="showOptions()"
+              onmouseleave="hideOption()"
+            >
+              Login
+            </button>
+          </div>
+          <div class="Seller">
+            <p>Become a Seller</p>
+          </div>
+          <div
+            class="more"
+            onmouseover="showElement()"
+            onmouseleave="hideOption()"
+          >
+            <span>More</span>
+            <svg
+              width="4.7"
+              height="8"
+              viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg"
+              class="zZ3yfL _2uV9Et"
+            >
+              <path
+                d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z"
+                fill="#fff"
+                class="_2gTTdy"
+              ></path>
+            </svg>
+          </div>
+          <div class="cart">
+            <svg
+              class="V3C5bO"
+              width="14"
+              height="14"
+              viewBox="0 0 16 16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="_1bS9ic"
+                d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                fill="#fff"
+              ></path>
+            </svg>
+            <span>Cart</span>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="profile-container"
+        onmouseover="showOptions()"
+        onmouseleave="hideOption()"
+      >
+        <div class="edge"></div>
+        <div class="new-customer">
+          <h4>New Customer?</h4>
+          <a href="#"><span>Sign Up</span></a>
+        </div>
+        <div class="profile Hclass">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="far"
+            data-icon="circle-user"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            class="svg-inline--fa fa-circle-user fa-xl"
+          >
+            <path
+              fill="currentColor"
+              d="M406.5 399.6C387.4 352.9 341.5 320 288 320H224c-53.5 0-99.4 32.9-118.5 79.6C69.9 362.2 48 311.7 48 256C48 141.1 141.1 48 256 48s208 93.1 208 208c0 55.7-21.9 106.2-57.5 143.6zm-40.1 32.7C334.4 452.4 296.6 464 256 464s-78.4-11.6-110.5-31.7c7.3-36.7 39.7-64.3 78.5-64.3h64c38.8 0 71.2 27.6 78.5 64.3zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-272a40 40 0 1 1 0-80 40 40 0 1 1 0 80zm-88-40a88 88 0 1 0 176 0 88 88 0 1 0 -176 0z"
+              class=""
+            ></path>
+          </svg>
+          <span>My Profile</span>
+        </div>
+        <!-- <div class="supercoin Hclass">
+          <img src="./img/coin-svgrepo-com.svg" alt="" />
+          <span>SuperCoin Zone</span>
+        </div> -->
+        <div class="flipcartplus Hclass">
+          <img
+            width="16"
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+          />
+          <span>Flipcart Plus Zone</span>
+        </div>
+        <div class="order Hclass">
+          <img src="./img/order-1-svgrepo-com.svg" alt="order" />
+          <span>Orders</span>
+        </div>
+        <div class="wishlist Hclass">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"
+            />
+          </svg>
+          <span>Wishlist</span>
+        </div>
+        <div class="coupon Hclass">
+          <img src="./img/coupon-svgrepo-com.svg" alt="coupon" />
+          <span>Rewards</span>
+        </div>
+        <div class="giftcard Hclass">
+          <img src="./img/giftcard-fill-svgrepo-com (1).svg" alt="giftcard" />
+          <span>Gift card</span>
+        </div>
+
+        <div class="log-out"></div>
+      </div>
+      <div
+        class="more-hover-element"
+        onmouseover="showElement()"
+        onmouseleave="hideElement()"
+      >
+        <div class="edge2"></div>
+        <div class="notifications Hclass">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            ! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com
+            License - https://fontawesome.com/license (Commercial License)
+            Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"
+            />
+          </svg>
+          <span>Notifications</span>
+        </div>
+        <div class="twenty-four-sevices Hclass">
+          <img src="img/curtomer care.jpg" alt="" />
+          <span>24x7 Customer Services</span>
+        </div>
+        <div class="advertise Hclass">
+          <img src="img/advertise_icon.jpg" alt="advertise" />
+          <span>Advertise</span>
+        </div>
+        <div class="download Hclass">
+          <img src="img/download_icon.jpg" alt="download" />
+          <span class="p-padding">Download</span>
+        </div>
+      </div>
+      <div class="product-header">
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/grocery.webp" alt="grocery" />
+          </div>
+          <p>Grocery</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/mobile.webp" alt="mobile" />
+          </div>
+          <p>Mobile</p>
+        </div>
+        <div class="product-container" id="fasionpro">
+          <div class="grocery-img">
+            <img src="img/fasion1.png" alt="grocery" />
+          </div>
+          <p>Fashion</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/electronics1.webp" alt="grocery" />
+          </div>
+          <p>Electronics</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/furniture1.webp" alt="grocery" />
+          </div>
+          <p>Home & Furniture</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/applience1.webp" alt="grocery" />
+          </div>
+          <p>Appliances</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/travel1.webp" />
+          </div>
+          <p>Travel</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/toys1.webp" alt="grocery" />
+          </div>
+          <p>Beauty, Toys & More</p>
+        </div>
+        <div class="product-container">
+          <div class="grocery-img">
+            <img src="img/two-wheecle.webp" alt="grocery" />
+          </div>
+          <p>Two Wheelers</p>
+        </div>
+      </div>
+      <div class="hover-pro-container" id="hovershowpro">
+        <div class="hidable-container">
+          <div class="hovered-pro">
+            <div class="hover-pro-list" id="men-top-wear">
+              <p>Men's Top Wear</p>
+            </div>
+            <div class="hover-pro-list" id="men-bottom-wear">
+              <p>Men's Bottom Wear</p>
+            </div>
+            <div class="hover-pro-list" id="women-ethnic-wear">
+              <p>Women Ethnic</p>
+            </div>
+            <div class="hover-pro-list" id="women-western">
+              <p>Women Western</p>
+            </div>
+            <div class="hover-pro-list" id="men-footwear">
+              <p>Men Footwear Wear</p>
+            </div>
+            <div class="hover-pro-list" id="women-footwear">
+              <p>Women Footwear Wear</p>
+            </div>
+            <div cla  ss="hover-pro-list" id="watch">
+              <p>Watch and Accessories</p>
+            </div>
+            <div class="hover-pro-list" id="bags">
+              <p>Bags, Suitcases & Laggage</p>
+            </div>
+            <div class="hover-pro-list" id="kids">
+              <p>Kids</p>
+            </div>
+            <div class="hover-pro-list" id="essentials">
+              <p>Essentials</p>
+            </div>
+            <div class="hover-pro-list" id="winter">
+              <p>Winter</p>
+            </div>
+          </div>
+
+          <div class="hovered-show">
+            <div class="mens-top">
+              <h1>More in Men's Top Wear</h1>
+              <p>All</p>
+              <p>Men's T-Shirts</p>
+              <p>Men's Casual Shirts</p>
+              <p>Men's Formal Shirts</p>
+              <p>Men's Kurtas</p>
+              <p>Men's Ethnic Sets</p>
+              <p>Men's Blazers</p>
+              <p>Men's Raincoat</p>
+              <p>Men's Windcheaters</p>
+              <p>Men's Suit</p>
+              <p>Men's Fabrics</p>
+            </div>
+
+            <div class="mens-bottom">
+              <h1>More in Men's Bottom Wear</h1>
+              <p>All</p>
+              <p>Men's Jeans</p>
+              <p>Men's Trousers</p>
+              <p>Men's Trackpants</p>
+              <p>Men's Shorts</p>
+              <p>Men's Cargos</p>
+              <p>Men's Threefourths</p>
+              <p>Men's Pyjamas & Loungepants</p>
+              <p>Men's Dhotis</p>
+              <p>Men's Ethnic Pyjama</p>
+            </div>
+
+            <div class="women-ethnic">
+              <h1>More in Women Ethnic</h1>
+              <p>All</p>
+              <p>Women Sarees</p>
+              <p>Women Kurtas & Kurtis</p>
+              <p>Women Kurta Sets & Salwar Suits</p>
+              <p>Ethnic Dresses</p>
+              <p>Women Dress Materials</p>
+              <p>Women Gowns</p>
+              <p>Women Lahenga Cholis</p>
+              <p>Women Leggins & Patialas</p>
+              <p>Women Palazzos & Shararas</p>
+              <p>Women Blouse</p>
+              <p>Women Dupatta</p>
+            </div>
+
+            <div class="women-western">
+              <h1>More in Women Western</h1>
+              <p>All</p>
+              <p>Women Tops</p>
+              <p>Women Dresses</p>
+              <p>Women T-shirts & Polo T-shirts</p>
+              <p>Women Jeans</p>
+              <p>Women Nighties & Night Dresses</p>
+              <p>Women Nightsuit</p>
+              <p>Women Track Pants</p>
+              <p>Women Trouser</p>
+              <p>Women Jumpsuit</p>
+              <p>Women Shapewear</p>
+              <p>Women Sports Bra</p>
+            </div>
+
+            <div class="men-Footwear">
+              <h1>More in Men Footwear</h1>
+              <p>All</p>
+              <p>Men's Sports Shoes</p>
+              <p>Men's Casual Shoes</p>
+              <p>Men's Sandals & Floaters</p>
+              <p>Men's Slippers & Flip Flops</p>
+              <p>Men's Formal Shoes</p>
+              <p>Men's Ethnic Shoes</p>
+              <p>Shoe Care</p>
+            </div>
+
+            <div class="women-Footwear">
+              <h1>More in Women Footwaer</h1>
+              <p>All</p>
+              <p>Women Flats</p>
+              <p>Women Heels</p>
+              <p>Women Wedges</p>
+              <p>Women Flip Flops</p>
+              <p>Women Casual Shoes</p>
+              <p>Women Sports Shoes</p>
+              <p>Women Ballerinas</p>
+              <p>Women Ethnic Shoes</p>
+              <p>Women Sneakers</p>
+              <p>Women Walking Shoes</p>
+              <p>Women Boots</p>
+            </div>
+
+            <div class="accessories">
+              <h1>More in Watches and Accessories</h1>
+              <p>Men & Women Watches</p>
+              <p>Men & Women Sunglasses</p>
+              <p>Wallets</p>
+              <p>Men & Women Belts</p>
+              <p>Men Fashion Jewellery</p>
+              <p>Precious Articles</p>
+              <p>Kids Accessories</p>
+            </div>
+
+            <div class="bag-laggages">
+              <h1>More in Bags, Suitcases & Laggage</h1>
+              <p>All</p>
+              <p>Bags & Backpacks</p>
+              <p>Suitcases & Trolleys</p>
+              <p>Dufflebags</p>
+              <p>Rucksacks</p>
+              <p>Handbags</p>
+              <p>Slingbags</p>
+              <p>Women's Clutches & Wallets</p>
+              <p>Messanger Bags</p>
+              <p>Travel Accessories</p>
+            </div>
+
+            <div class="kid">
+              <h1>More in Kids</h1>
+              <p>All</p>
+              <p>Girls Dresses</p>
+              <p>Boys & Girls Tshirts</p>
+              <p>Boys & Girls Combosets</p>
+              <p>Boys & Girls Ethnic Wear</p>
+              <p>Boys & Girls Jeans</p>
+              <p>Boys & Girls Shorts</p>
+              <p>Boys & Girls Trackpants</p>
+              <p>Boys & Girls Innerwear</p>
+              <p>Infant Wear</p>
+              <p>Kids Slipper Flip Flops</p>
+              <p>Kids Sports Shoes</p>
+            </div>
+
+            <div class="essentials">
+              <h1>More in Essentials</h1>
+              <p>Boys Innerwear</p>
+              <p>Men's Briefs & Trunks</p>
+              <p>Men's Vest</p>
+              <p>Men's Boxers</p>
+              <p>Women Lingerie Sets</p>
+              <p>Women Bra</p>
+              <p>Women Panty</p>
+              <p>Women Sarees</p>
+              <p>Women Kurtas</p>
+              <p>Women Kurta Sets & Salvar Suits</p>
+              <p>Boys Innerwear</p>
+              <p>Girls Innerwear</p>
+              <p>Women Slipper Flip Flops</p>
+            </div>
+
+            <div class="winter">
+              <h1>More in winter</h1>
+              <p>All</p>
+              <p>Men's Jackets</p>
+              <p>Men's Sweaters</p>
+              <p>Men's Thermals</p>
+              <p>Women's Jackets</p>
+              <p>Women's Sweatshirts</p>
+              <p>Women's Sweaters & Cardigans</p>
+              <p>Women's Shrugs</p>
+              <p>Kids Sweatshirts</p>
+              <p>Women Kurtas</p>
+              <p>Boys Innerwear</p>
+              <p>Kids Jackets</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ************************************* Banner ************************************* -->
+      <div>hello</div>
+      <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX Banner XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

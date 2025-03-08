@@ -1,0 +1,48 @@
+.form-input {
+  width: 96%;
+  height: 40px;
+  border-radius: 5px;
+}
+.btn {
+  width: 106px;
+  height: 42px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover{
+    border: none;
+    transition: .5s;
+    color: whitesmoke;
+    background-color: var(--bg-color);
+    font-family: var(--font-family2)
+  }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+:root {
+  --bg-color: rgb(237, 110, 31);
+  --font-family: "Mukta", sans-serif;
+  --font-family2: "Roboto", sans-serif;
+}
+
+.font1 {
+  font-family: var(--font-family);
+}
+.font2 {
+  font-family: var(--font-family2);
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.set-margin{
+    margin-top: 4%;
+    margin-bottom: 3%;
+    width: 90%;
+}
+
+.container{
+  margin: 4%;
+}

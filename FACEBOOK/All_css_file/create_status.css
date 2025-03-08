@@ -1,0 +1,92 @@
+.create_status_container{
+    display: flex;
+    padding-top: 6rem;
+}
+.container1{
+    background-color:#fff;
+    width: 20%;
+    height: 35.5rem;
+    padding: .7rem;
+}
+.acountant_name{
+    display: flex;
+}
+.acountant_name h3{
+    font-size: 1.8rem;
+    font-family: sans-serif;
+    padding: .5rem;
+}
+.acountant_name i{
+    font-size: 1.7rem;
+    padding-left: 4rem;
+    padding-top: .6rem;
+    cursor: pointer;
+}
+.acountant_image{
+    display: flex;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+.acountant_image img{
+    height: 4rem;
+    width: 4rem;
+    background-position: center;
+    border-radius: 6rem;
+}
+.acountant_image h3{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.container2{
+    display: flex;
+    margin: auto;
+}
+.box1{
+    height: 20rem;
+    width: 14rem;
+    background-color: blue;
+    border-radius: .6rem;
+}
+.box1:hover{
+    background-color: rgba(15, 15, 247, 0.588);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.box1 i{
+    font-size: 2rem;
+    background-color: #fff;
+    padding: .8rem;
+    border-radius: 3rem;
+    margin-top: 7rem;
+    margin-left: 4.3rem;
+}
+.box1 h4{
+    text-align: center;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding: 1rem;
+    color: #fff;
+}
+.box2{
+    height: 20rem;
+    width: 14rem;
+    border-radius: .6rem;
+    background-color: violet;
+    margin: 0rem 1rem;
+}
+.box2 i{
+    font-size: 2rem;
+    background-color: #fff;
+    padding: .8rem;
+    border-radius: 3rem;
+    margin-top: 7rem;
+    margin-left: 4.3rem;
+}
+.box2 h4{
+    text-align: center;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding: 1rem;
+    color: #fff;
+}

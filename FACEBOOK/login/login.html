@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="main-container" id="main-con">
+      <div class="header-text">
+        <img src="img/facebook_icon.svg" alt="facebook_icon" />
+        <h2>
+          Facebook hepls you connect and share with the people in your life.
+        </h2>
+      </div>
+      <div class="authenticate-con">
+        <div class="register-con" id="sign-con">
+          <img src="img/close-icon.png" id="close-btn" alt="close">
+          <h2>Sign Up</h2>
+          <h4>It's quick and easy.</h4>
+          
+          <br />
+          <hr />
+          <br />
+          <form id="register-form">
+            <div class="user-names">
+              <input type="text" placeholder="First name" />
+              <input type="text" placeholder="Surname" />
+            </div>
+            <div class="mobile-pass">
+              <input
+                id="name"
+                type="text"
+                placeholder="Mobile number or email address"
+                value=""
+              />
+              <input
+                id="pw"
+                type="password"
+                placeholder="New password"
+                value=""
+              />
+            </div>
+
+            <div class="dob">
+              <h5>Date of birth</h5>
+              <input type="text" placeholder="day" />
+              <input type="text" placeholder="month" />
+              <input type="text" placeholder="year" />
+            </div>
+
+            <div class="gender">
+              <h5>Gender</h5>
+              <div class="dob-flex">
+                <div class="gender-m">
+                  <label>Female</label>
+                  <input type="radio" />
+                </div>
+                <div class="gender-m">
+                  <label>Male</label>
+                  <input type="radio" />
+                </div>
+                <div class="gender-m">
+                  <label>Custom</label>
+                  <input type="radio" />
+                </div>
+              </div>
+            </div>
+
+            <h3>
+              People who use our service may have uploaded your contact
+              information to Facebook. Learn more.
+            </h3>
+            <h3>
+              By clicking Sign Up, you agree to our Terms, Privacy Policy and
+              Cookies Policy. You may receive SMS notifications from us and can
+              opt out at any time.
+            </h3>
+            <button
+              id="rgstr_btn"
+              type="submit"
+              value="get Account"
+              onClick="store()"
+            >
+              Sign In
+            </button>
+            <!-- <p id="logBtn">Log In</p> -->
+          </form>
+        </div>
+        <div class="login-con" id="log-con">
+          <form id="login-form">
+            <input
+              id="userName"
+              type="text"
+              placeholder="Email address or phone number "
+              value=""
+            />
+            <input
+              id="userPw"
+              type="password"
+              placeholder="Enter Password"
+              value=""
+            />
+            <button
+              id="login_btn"
+              type="submit"
+              value="Login"
+              onClick="check()"
+            >
+              Log In
+            </button>
+            <a href="#" id="signBtn">Forgotten password?</a>
+          </form>
+          <br /><br />
+          <hr />
+          <br />
+          <button type="button" class="create_btn" id="create-f">Create new account</button>
+        </div>
+        <p><span>Create a Page </span>for a celebrity, brand or business.</p>
+      </div>
+    </div>
+    <!-- <script type="text/javascript" src="jquery-1.11.3.min.js"></script> -->
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="login.js"
+    ></script>
+  </body>
+</html>
