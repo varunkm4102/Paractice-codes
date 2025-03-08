@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <title>blog-single</title>
+</head>
+<body>
+    <header id="site-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark stroke p-0">
+                <h1> <a class="navbar-brand" href="index.html">
+                        Publication
+                    </a></h1>
+                <!-- if logo is image enable this   
+                <a class="navbar-brand" href="#index.html">
+                        <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+                </a> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                    </span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item @@about-active">
+                            <a class="nav-link" href="blog-single.html">Blog <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item @@about-active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item @@contact-active">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <!--/search-right-->
+                    <div class="search-right">
+                        <a href="#search" class="btn btn-light theme-button mr-lg-3 mt-lg-0 mt-4" title="search"><span class="fa fa-search"
+                                aria-hidden="true"></span> Topics</a>
+                        <!-- search popup -->
+                        <div id="search" class="pop-overlay">
+                            <div class="popup">
+                                <form action="#search-results.html" method="post" class="search-box">
+                                    <input type="search" placeholder="Search your Keyword" name="search" required="required" autofocus="">
+                                    <button type="submit" class="btn"><span class="fa fa-search" aria-hidden="true"></span></button>
+                                </form>
+                                <div class="browse-items">
+                                    <h3 class="hny-title two mt-md-5 mt-4">Browse all topics:</h3>
+                                    <ul class="search-items">
+                                        <li><a href="#blog.html">Design Patterns</a></li>
+                                        <li><a href="#blog.html">Performance</a></li>
+                                        <li><a href="#blog.html">Photoshop</a></li>
+                                        <li><a href="#blog.html">User Experience</a></li>
+                                        <li><a href="#blog.html">Typography</a></li>
+                                        <li><a href="#blog.html">E-commerce</a></li>
+                                        <li><a href="#blog.html">HTML</a></li>
+                                        <li><a href="#blog.html">Illustration</a></li>
+                                        <li><a href="#blog.html">Design Patterns</a></li>
+                                        <li><a href="#blog.html">Performance</a></li>
+                                        <li><a href="#blog.html">Photoshop</a></li>
+                                        <li><a href="#blog.html">User Experience</a></li>
+                                        <li><a href="#blog.html">Typography</a></li>
+                                        <li><a href="#blog.html">E-commerce</a></li>
+                                        <li><a href="#blog.html">HTML</a></li>
+                                        <li><a href="#blog.html">Illustration</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <a class="close" href="#close">×</a>
+                        </div>
+                        <!-- /search popup -->
+                        <a href="#domain" class="domain" data-toggle="modal" data-target="#DomainModal">
+                            <div class="hamburger1">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </a>
+    
+                        <!--//search-right-->
+                    </div>
+                </div>
+    
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+
+    <section class="w3l-blog-single py-5">
+        <div class="container py-lg-3">
+          <div class="row">
+            <div class="col-lg-3 pr-lg-4 order-lg-1 order-2">
+              <div class="img-circle">
+                <a href="author.html"><img src="assets/images/main-author.jpg" class="img-fluid" alt="author image"></a>
+              </div>
+              <h4 class="about-title">About the author</h4>
+                <p class="mr-lg-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, fugiat omnis aliquam iure quasi aspernatur nulla
+                  soluta dignissimos
+                  consequatur. Omnis fugit dolor recusandae quae! Molestiae! <br>
+                  <a href="author.html">More about author...</a></p>
+            </div>
+            <div class="col-lg-9 pl-lg-0 order-lg-2 order-1">
+              <div class="message">
+                <ul class="author-date mb-4 d-flex align-items-center">
+                  <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                  <li><span class="fa fa-commenting-o" aria-hidden="true"></span> <a href="#reply">12 Comments</a></li>
+                  <li><span class="fa fa-clock-o" aria-hidden="true"></span> 8 min read</li>
+                </ul>
+                <h4 class="blog_post_title">Have you ever wondered how the app works so flawlessly and if you have to build a similar app how will you proceed? In this article we will be covering how we can design an app similar to instagram.</h4>
+                <div class="row mt-4">
+                  <div class="col-lg-8 pr-lg-4 order-lg-1 order-2">
+                    <div class="single-post-content">
+                      <p class="mb-4">User should be able to upload an image/video on his profile.
+                        User should be able to see uploads of other users followed the user.
+                        User should be able to follow other users.
+                        User can perform search for an image/video based on title.</p>
+                      <p class="mb-4">The user feed latency should be low.
+                        We are okay with eventual consistency as uploaded image can be shown to another user after few milliseconds.
+                        Our app needs to be highly available.
+                        The Data store we will be using for storing image/video should be reliable and data should not be lost.</p>
+                      <div class="single-post-content mt-4 mb-4 py-lg-3">
+                        <h3 class="blog-desc-big m-0 mb-4">Additional Requirements</h3>
+                        <p class="mb-4">Users can add tags to a photo/video.
+                          Users can put comments on a post.
+                          Users can search photo based on tags. </p>
+                        <div class="text-list">
+                          <ol>
+                            <li>Let’s assume we have 500 million daily active users and we get roughly 5 million uploads per day.
+
+                              Total number of uploads ~ 57 per sec</li>
+                            <li>Let’s assume average upload size of 200KB.</li>
+                            <li>Then total storage required for 1 day is 200*5 ~ 1 TB per day.</li>
+                            <li>It’s limited seating! Hurry up. Get the Coaching Training for Free</li>
+                          </ol>
+                        </div>
+                      </div>
+                      <p class="mb-4">Data store for storing uploaded image — Our System is read heavy, so we need a data store that can quickly fetch the uploaded image and render on user application. Couple of things that needs to be kept in mind is 1) The data store should be reliable as we do not want user’s uploaded image to get lost. 2) User can upload as many images as they so the data store should be scalable to handle billions of images. 3) Latency should be low when retrieving the photos. We can consider an object storage to store the uploaded images by user something like AWS S3. There are other types of storage as well like file storage and block storage but considering the above factors object storage will be a right fit for our design as it gives low read latency and efficient management of huge number of records.</p>
+                      <p class="mb-4">Now we have a data store to store the uploaded image by users. We need a database to store the metadata of user uploads and user data. Things to keep in mind while deciding data store — 1) The database should be highly available. 2) It should have low read latency as our system is ready heavy. 3) It should be scalable enough to handle billions of record. 4) It should be reliable and should support sharding and replication. Considering the above factors we do not see a requirement for relational database. We can go for a key value based NoSQL database. For this system design we can choose AWS DynamoDB to store user data and image uploads metadata.</p>
+                      <blockquote class="blockquote my-5">
+                        <div class="icon-quote"><span class="fa fa-quote-left" aria-hidden="true"></span></div>
+                        We can’t choose followingUserId as a hashKey because it can create an unbalanced partition since there can be user’s who will be having millions of follower’s. These type of user’s are known as hot users. Hence, to maintain a balanced partition we can choose a combination of followingUserId and followerUserId as a hashKey
+                        <footer class="blockquote-footer mt-3">
+                          Winston Churchill</footer>
+                      </blockquote>
+                      <h3 class="blog-desc-big m-0 mb-4">Table to store user uploads</h3>
+                      <p class="mb-4">uploadId: string[Hashkey]
+                        userId: string[RangeKey]
+                        imageLocation: string
+                        uploadDateInUtc: long
+                        caption: string </p>
+                      <p class="mb-4">Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
+                        lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                        culpa quis. </p>
+                      <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, veritatis. Excepteur
+                        sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id
+                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                        culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                      <div class="sing-post-thumb mb-5 row pt-3">
+                        <div class="col-sm-6">
+                          <a href="#url"><img src="assets/images/img2.jpg" class="img-fluid" alt=""></a>
+                        </div>
+                        <div class="col-sm-6 mt-sm-0 mt-3">
+                          <a href="#url"><img src="assets/images/img3.jpg" class="img-fluid" alt=""></a>
+                        </div>
+                      </div>
+                      <h3 class="blog-desc-big m-0 mb-lg-4 mb-3">How to wite a Blog Post</h3>
+                      <p class="mb-4">Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
+                        lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                        culpa quis. Lorem ipsum dolor, sit amet elit. </p>
+                      <div class="text-list mb-4">
+                        <ol>
+                          <li>Understand your audience. </li>
+                          <li>Create your blog domain. </li>
+                          <li>Sign Up With a Content Management System </li>
+                          <li>Register a Domain or Subdomain With a Website Host </li>
+                          <li>Customize your blog's theme. </li>
+                          <li>Identify your first blog post's topic.</li>
+                        </ol>
+                      </div>
+                      <p class="mb-4">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id
+                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                        culpa quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde expedita esse error enim
+                        repellat, architecto corporis rerum ipsa alias cum! </p>
+                      <p class="mb-4">Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
+                        lacinia id
+                        erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                        culpa quis. </p>
+      
+      
+                      <div class="single-post-content my-4 py-lg-3">
+                        <h3 class="blog-desc-big m-0 mb-4">Your Blog Posts are Boring? Here are 9 Tips for Making your Writing more Interesting</h3>
+                        <p class="mb-4">Hong Kong is one of those cities you never really stop discovering. With its breathtaking
+                          national parks and a Chinese culture influenced by years of British colonial rule, Hong Kong has unique
+                          and enduring characteristics that make it truly special. The city’s intrigue will lead you there, while
+                          its economic and cultural vibrance will make it impossible to leave. Don’t take our word for it, read
+                          these unforgettable Hong Kong quotes:</p>
+                        <div class="single-post-content">
+                          <div class="img-row mb-4">
+                            <img src="assets/images/img4.jpg" class="img-fluid" alt="image">
+                          </div>
+                          <div class="text-row">
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut debitis nobis veniam
+                              fugit. Unde,
+                              culpa illum ipsum tempora excepturi quo porro, asperiores quibusdam molestiae iure ea facilis
+                              consequuntur quaerat fuga.</p>
+                            <p class="mb-4">Vestibulum feugiat tortor vitae diam euismod, ut et inter dum nisi fermentum.
+                              Pellentesque sed
+                              sodales nunc. Vestibulum laoreet erat nisi, sit amet ultrices. Vestibulum feugiat tortor vitae
+                              diam euismod, ut et inter dum nisi fermentum. Pellentesque sed sodales nunc. Vestibulum laoreet
+                              erat nisi, sit amet ultrices vitae diam.</p>
+                            <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut debitis nobis veniam
+                              fugit. Unde,
+                              culpa illum ipsum tempora excepturi quo porro, asperiores quibusdam molestiae iure ea facilis
+                              consequuntur quaerat fuga.</p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <h3 class="blog-desc-big m-0 mb-4">Search for Inspiration</h3>
+                      <p class="mb-4">Vivamus a ligula quam. Ut blandit eu leo non suscipit. <a href="#" class="use-admin">Domains</a> In interdum
+                        ullamcorper dolor eu mattis.Nulla quis lorem
+                        neque,Nulla
+                        quis lorem neque, mattis venenatis lectus.<a href="#" class="use-admin"> Sub Domains</a>
+                        In interdum ullamcorper dolor eu mattis.Nulla quis lorem neque, mattis venenatis
+                        lectus.</p>
+                      <p class="mb-4">Dolor sit sed amet, excepteur sint occaecat non proident, sunt in culpa quis. Phasellus
+                        lacinia id erat eu. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in
+                        culpa quis. </p>
+      
+      
+                      <div class="single-post-content mb-4 py-lg-3">
+                        <h3 class="blog-desc-big m-0 mb-4">Join With Us. We Will Make The Best Market Together!</h3>
+                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, amet fuga harum
+                          nulla laborum
+                          aliquid maxime accusamus vitae quas minima nisi facere quidem omnis perferendis voluptatum corrupti,
+                          voluptatem aperiam quod.</p>
+                        <div class="two-columns row single-post-content mt-4">
+                          <div class="col-md-6 left-column">
+                            <img src="assets/images/img1.jpg" class="img-fluid" alt="image">
+                          </div>
+                          <div class="col-md-6 right-column mt-md-0 mt-4 pl-md-3">
+                            <p class="mb-4">Vestibulum feugiat tortor vitae diam euismod, ut et inter dum nisi fermentum.
+                              Pellentesque sed
+                              sodales nunc. Vestibulum laoreet erat nisi, sit amet ultrices. Vestibulum feugiat tortor vitae
+                              diam euismod, ut et inter dum nisi fermentum. Pellentesque sed sodales nunc. Vestibulum laoreet
+                              erat nisi, sit amet ultrices vitae diam.</p>
+                          </div>
+                        </div>
+                      </div>
+      
+                      <div class="d-grid left-right">
+                        <div class="buttons-singles">
+                          <h4>Share :</h4>
+                          <a href="#blog-share"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                          <a href="#blog-share"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                          <a href="#blog-share"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                          <a href="#blog-share"><span class="fa fa-pinterest-p" aria-hidden=" true"></span></a>
+                        </div>
+                      </div>
+      
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-lg-0 mb-4 order-lg-2 order-1">
+                    <div class="blog-single-content">
+                      <p><span class="fa fa-clock-o" aria-hidden="true"></span> 8 min read</p>
+                      <a href="#reply"><span class="fa fa-commenting-o" aria-hidden="true"></span> Leave your thought</a>
+                    </div>
+                    <div class="blog-subscribe p-3 mt-lg-5 mt-3">
+                      <h5>Subscribe to Blog</h5>
+                      <form action="#" method="GET" class="subscribe-form">
+                        <input type="email" class="form-control subscribe-field mt-3 mb-2" placeholder="Email Address" name="subscribe" required="required">
+                        <button type="submit" class="btn btn-primary btn-theme">Subscribe</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+      
+      
+      
+      
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0 offset-lg-3 offset-0">
+              <nav class="post-navigation row mb-4 mt-lg-0 mt-5 py-4">
+                <div class="post-prev col-6 pr-sm-5">
+                  <span class="nav-title">
+                    <span class="fa fa-arrow-left prev"></span>&nbsp; Prev Post </span>
+                  <a href="#url" rel="prev" class="posts-view posts-view-left">
+                    <img src="assets/images/img10.jpg" class="img-fluid postimg d-none d-md-block">
+                    <label>That’s what I want to show you how to do here.</label>
+                  </a>
+                </div>
+                <div class="post-next col-6 pl-sm-5 text-right">
+                  <span class="nav-title">
+                    Next Post&nbsp; <span class="fa fa-arrow-right next"></span> </span>
+                  <a href="#url" rel="next" class="posts-view posts-view-right">
+                    <label>How to Make Cappuccino without a Machine</label>
+                    <img src="assets/images/img11.jpg" class="img-fluid postimg d-none d-md-block">
+                  </a>
+                </div>
+              </nav>
+              <div class="comments mt-5">
+                <h4 class="side-title ">Comments</h4>
+                <div class="media mt-4">
+                  <div class="img-circle">
+                    <img src="assets/images/author.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="media-body">
+      
+                    <ul class="time-rply mb-2">
+                      <li><a href="#URL" class="name mt-0 mb-2 d-block">Dhony Abraham</a>
+                        May 11, 2020 - 10:02 pm
+      
+                      </li>
+                      <li class="reply-last">
+                        <a href="#reply" class="reply">
+                          Reply</a>
+                      </li>
+                    </ul>
+                    <p>Adipisicing elit. Repellat, hic
+                      reprehenderit eum cupiditate deleniti, Lorem ipsum dolor sit amet consectetur adipisicing.....</p>
+                  </div>
+                </div>
+      
+                <div class="media">
+                  <div class="img-circle">
+                    <img src="assets/images/author1.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="media-body">
+                    <ul class="time-rply mb-2">
+                      <li><a href="#URL" class="name mt-0 mb-2 d-block">Marko Dugonji</a>
+                        Jun 05, 2020 - 12:12 pm
+                      </li>
+                      <li class="reply-last">
+                        <a href="#reply" class="reply">
+                          Reply</a>
+                      </li>
+                    </ul>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing. Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing
+                      elitFuga,
+                      suscipit totam animi.....</p>
+                    <div class="media second mt-4 p-0 pt-2">
+                      <a class="img-circle img-circle-sm" href="#url">
+                        <img src="assets/images/author2.jpg" class="img-fluid" alt="...">
+                      </a>
+                      <div class="media-body">
+                        <ul class="time-rply mb-2">
+                          <li><a href="#URL" class="name mt-0 mb-2 d-block">Emma Stone</a>
+                            Oct 15, 2020 - 10:02 am
+      
+                          </li>
+                          <li class="reply-last">
+                            <a href="#reply" class="reply"> Reply</a>
+                          </li>
+                        </ul>
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                          corrupti quos dolores et. Lorem ipsum dolor sit amet......</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="media mt-4">
+                  <div class="img-circle">
+                    <img src="assets/images/author3.jpg" class="img-fluid" alt="...">
+                  </div>
+                  <div class="media-body">
+      
+                    <ul class="time-rply mb-2">
+                      <li><a href="#URL" class="name mt-0 mb-2 d-block">Daniel Roberto</a>
+                        April 15th, 2020 - 10:02 pm
+      
+                      </li>
+                      <li class="reply-last">
+                        <a href="#reply" class="reply">
+                          Reply</a>
+                      </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, hic
+                      reprehenderit eum cupiditate deleniti, Lorem ipsum dolor sit amet consectetur adipisicing.....</p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="leave-comment-form mt-5" id="reply">
+                <h4 class="side-title mb-2">Leave your comment</h4>
+                <p class="mb-4">Your email address will not be published. Required fields are marked *
+                </p>
+                <form action="#" method="post">
+      
+                  <div class="form-group">
+                    <textarea name="Comment" class="form-control" placeholder="Your Comment*" required="" spellcheck="false"></textarea>
+                  </div>
+                  <div class="input-grids row">
+      
+                    <div class="form-group col-lg-6">
+                      <input type="text" name="Name" class="form-control" placeholder="Your Name*" required="">
+                    </div>
+                    <div class="form-group col-lg-6">
+                      <input type="email" name="Email" class="form-control" placeholder="Email*" required="">
+                    </div>
+                  </div>
+      
+                  <div class="submit text-right">
+                    <button class="btn btn-style btn-primary">Post Comment </button></div>
+                </form>
+              </div>
+            </div>
+          </div>
+      
+      
+      
+        </div>
+      </section>
+
+
+      <section class="w3l-index5 w3l-blog1 py-5">
+        <div class="container py-lg-3">
+          <div class="header-section text-center mb-5">
+            <h3>Relates Posts </h3>
+          </div>
+          <div class="owl-two owl-carousel owl-theme owl-loaded owl-drag">
+            
+            
+            
+          <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-4600px, 0px, 0px); transition: all 1s ease 0s; width: 8050px;"><div class="owl-item cloned" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img3.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author1.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+      
+            </div></div><div class="owl-item cloned" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img4.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author2.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+      
+            </div></div><div class="owl-item" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img2.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author9.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+            </div></div><div class="owl-item" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img3.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author1.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+      
+            </div></div><div class="owl-item active" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img4.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author2.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+      
+            </div></div><div class="owl-item cloned" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img2.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author9.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+            </div></div><div class="owl-item cloned" style="width: 1150px;"><div class="item">
+              <div class="row abouthy-img-grids no-gutters">
+                <div class="col-lg-6 img-one">
+                  <a href="blog-single.html"><img src="assets/images/img3.jpg" alt=" " class="img-fluid"></a>
+                </div>
+                <a href="blog-single.html" class="col-lg-6 blog-article-posts bg-color-one">
+                  <div class="blog-post d-flex flex-wrap align-content-between p-md-5">
+                    <div class="post-content">
+                      <ul class="author-date mb-4 d-flex align-items-center">
+                        <li class="circle avatar"><img src="assets/images/author1.jpg" alt=""></li>
+                        <li>by <b>John Michele</b></li>
+                        <li><span class="fa fa-clock-o" aria-hidden="true"></span> Mar 16, 2021</li>
+                      </ul>
+                      <h4 class="blog_post_title mb-4">That’s what I want to show you how to do here.</h4>
+                      <p class="sub-para">#Market Tips <sup> 36</sup></p>
+                      <p class="sub-para">#Sports <sup> 235</sup></p>
+                      <p class="sub-para">#Techniques <sup> 59</sup></p>
+                      <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, consectetur.....</p>
+                    </div>
+                    <div class="read-button mt-5">Read story <span class="fa fa-long-arrow-right" aria-hidden="true"></span></div>
+                  </div>
+                </a>
+              </div>
+      
+            </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous"> <span class="fa fa-angle-left"></span> </span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next"> <span class="fa fa-angle-right"></span> </span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button></div></div>
+        </div>
+      </section>
+
+    <footer class="w3l-footer">
+        <section class="footer-inner-main">
+          <div class="footer-hny-grids py-5">
+            <div class="container py-lg-4">
+              <div class="text-txt">
+                <div class="right-side">
+                  <div class="row footer-about pb-5">
+                    <div class="col-lg-9 footer-links">
+                      <div class="header-section">
+                        <h3 class="mb-3">About Us</h3>
+                        <p class="pr-lg-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Consequuntur hic odio voluptatem tenetur consequatur.Lorem ipsum dolor sit amet
+                          consectetur adipisicing elit. </p>
+                      </div>
+                      <div class="columns-2 mt-4">
+                        <ul class="social">
+                          <li><a href="#facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                          </li>
+                          <li><a href="#linkedin"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                          </li>
+                          <li><a href="#twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                          </li>
+                          <li><a href="#google"><span class="fa fa-google-plus" aria-hidden="true"></span></a>
+                          </li>
+    
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row footer-links">
+    
+                    <div class="col-md-3 col-sm-6 sub-two-right mt-5">
+                      <h6>Quick Links</h6>
+                      <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="about.html">About</a> </li>
+                        <li><a href="#login.html">Login</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 sub-two-right mt-5">
+                      <h6>Designing</h6>
+                      <ul>
+                        <li><a href="#articles.html">Design Patterns</a> </li>
+                        <li><a href="#articles.html">Performance</a> </li>
+                        <li><a href="#articles.html">Photoshop</a> </li>
+                        <li><a href="#articles.html">User Experience</a> </li>
+                        <li><a href="#articles.html">Typography</a> </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 sub-two-right mt-5">
+                      <h6>Business</h6>
+                      <ul>
+                        <li><a href="#blog.html">Investment</a> </li>
+                        <li><a href="#blog.html">Politics</a> </li>
+                        <li><a href="#blog.html">Markets</a> </li>
+                        <li><a href="#blog.html">Stock Exchange</a> </li>
+                        <li><a href="#blog.html">Business Stats</a> </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 sub-two-right mt-5">
+                      <h6>Health</h6>
+                      <ul>
+                        <li><a href="#blog.html">Living Science</a> </li>
+                        <li><a href="#blog.html">Child’s Health</a> </li>
+                        <li><a href="#blog.html">Mental Health</a> </li>
+                        <li><a href="#blog.html">Medicine Export</a> </li>
+                        <li><a href="#blog.html">Heart Health</a> </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="below-section">
+            <div class="container">
+              <div class="copyright-footer">
+                <div class="columns text-lg-left">
+                  <p>&copy; 2020 Publication. All rights reserved | Designed by <a href="https://w3layouts.com">W3layouts</a></p>
+                </div>
+                <ul class="columns text-lg-right">
+                  <li><a href="#privacy-policy.html">Privacy Policy</a>
+                  </li>
+                  <li><a href="about.html">About Us</a>
+                  </li>
+                  <li><a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- copyright -->
+          <!-- move top -->
+          <button onclick="topFunction()" id="movetop" title="Go to top">
+            <span class="fa fa-arrow-up" aria-hidden="true"></span>
+          </button>
+          <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () {
+              scrollFunction()
+            };
+    
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+              } else {
+                document.getElementById("movetop").style.display = "none";
+              }
+            }
+    
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+          </script>
+          <!-- /move top -->
+          <!-- jQuery JS -->
+  <!-- <script src="assets/js/jquery-3.4.1.slim.min.js"></script> -->
+  <script src="assets/js/jquery-1.9.1.min.js"></script>
+
+
+  <script src="assets/js/theme-change.js"></script>
+
+  <!-- responsive tabs -->
+  <script src="assets/js/easyResponsiveTabs.js"></script>
+
+  <!--Plug-in Initialisation-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      //Horizontal Tab
+      $('#parentHorizontalTab').easyResponsiveTabs({
+        type: 'default', //Types: default, vertical, accordion
+        width: 'auto', //auto or any width like 600px
+        fit: true, // 100% fit in a container
+        tabidentify: 'hor_1', // The tab groups identifier
+        activate: function (event) { // Callback function if tab is switched
+          var $tab = $(this);
+          var $info = $('#nested-tabInfo');
+          var $name = $('span', $info);
+          $name.text($tab.text());
+          $info.show();
+        }
+      });
+    });
+  </script>
+  <!-- Template JavaScript -->
+  <script src="assets/js/owl.carousel.js"></script>
+  <!-- script for banner slider-->
+  <script>
+    $(document).ready(function () {
+      $('.owl-one').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        responsiveClass: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          480: {
+            items: 1,
+            nav: false
+          },
+          667: {
+            items: 1,
+            nav: true
+          },
+          1000: {
+            items: 1,
+            nav: true
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script -->
+
+  <!-- disable body scroll which navbar is in active -->
+  <script>
+    $(function () {
+      $('.navbar-toggler').click(function () {
+        $('body').toggleClass('noscroll');
+      })
+    });
+  </script>
+  <!-- disable body scroll which navbar is in active -->
+
+
+  <!-- Bootstrap JS -->
+  <script src="assets/js/bootstrap.min.js"></script>
+    
+        </section>
+      </footer>
+</body>
+</html>
