@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 98.6vw;
+    background-color: #7a5555;
+}
+#page2{
+    height: 100vh;
+    width: 98.6vw;
+    background-color: blueviolet;
+}
+#page3{
+    height: 100vh;
+    width: 98.6vw;
+    background-color: skyblue;
+}
+#page4{
+    height: 100vh;
+    width: 98.6vw;
+    background-color: rebeccapurple;
+}
+canvas{
+    max-width: 100vw;
+    max-height: 100vh;
+}
