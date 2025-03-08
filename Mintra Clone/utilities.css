@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+.bolder{
+    font-weight: bolder;
+}
+.font-family{
+    font-family: sans-serif;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    margin-left: 12px;
+    margin-right: 12px;
+}

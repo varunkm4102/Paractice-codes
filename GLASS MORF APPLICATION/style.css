@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.glass-preview::before{
+    content: "Varun";
+    color: #fff;
+    font-size: 130px;
+    position: absolute;
+    z-index: -999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.glass-preview-rectangle{
+    background-color: rgba(0, 0, 0, alpha);
+}

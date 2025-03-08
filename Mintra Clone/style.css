@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left img{
+    width: 70px;
+    height: 53px;
+    padding-right: 75px;
+}
+.container{
+    padding: 0vw 10vw; 
+    margin: auto;
+}
+nav{
+    padding: 17px 10px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 0px 8px;
+    font-size: 14px;
+    color: rgb(53, 53, 54);
+    letter-spacing: 1.5px;
+}
+.section1{
+    background-color: rgb(255 248 248);
+    height: 70vw;
+}
+header{
+    position: sticky;
+    top: 0px;    
+    background-color: white;
+}
