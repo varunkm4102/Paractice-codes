@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main-container{
+    height: 100vh;
+    padding-top: 7rem;
+}
+.pass-container{
+    height: 65vh;
+    width: 60vw;
+    margin: auto;
+    align-items: center;
+}
+.gen-btn{
+    position: relative;
+    top:13rem;
+    left: -5rem;
+    background-color: rgb(075,407,879);
+}
+.copy-btn{
+    margin-left: 22rem;
+}
