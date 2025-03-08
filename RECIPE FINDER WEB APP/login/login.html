@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning JavaScript</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="register-con" id="sign-con">
+      <form id="register-form">
+        <input id="name" type="text" placeholder="Name" value="" />
+        <input id="pw" type="password" placeholder="Password" value="" />
+        <button
+          id="rgstr_btn"
+          type="submit"
+          value="get Account"
+          onClick="store()"
+        >
+          Sign In
+        </button>
+        <p id="logBtn">Log In</p>
+      </form>
+    </div>
+    <div class="login-con" id="log-con">
+      <form id="login-form">
+        <input
+          id="userName"
+          type="text"
+          placeholder="Enter Username"
+          value=""
+        />
+        <input
+          id="userPw"
+          type="password"
+          placeholder="Enter Password"
+          value=""
+        />
+        <button id="login_btn" type="submit" value="Login" onClick="check()">
+          Log In
+        </button>
+        <p id="signBtn">Sign In</p>
+      </form>
+    </div>
+
+    <!-- <script type="text/javascript" src="jquery-1.11.3.min.js"></script> -->
+    <script
+      type="text/javascript"
+      language="javascript"
+      src="login.js"
+    ></script>
+  </body>
+</html>

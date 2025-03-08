@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.recipe-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipe-list {
+  width: 24%;
+  background-color: rgb(11, 10, 10);
+  padding-bottom: 0.5rem;
+  margin: 0.4rem;
+}
+.recipe-list img {
+  width: 100%;
+  height: 15rem;
+}
+.recipe-list h5 {
+  font-weight: 300;
+  font-size: 1rem;
+  padding: 0.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffff;
+}
+.recipe-list p {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.recipe-list button {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  background-color: transparent;
+  margin-left: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.recipe-list button:hover {
+  background-color: rgb(28, 27, 27);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.recipe-search {
+  padding: 1rem;
+  text-align: center;
+}
+.recipe-search input {
+  outline: none;
+  width: 40%;
+  height: 3rem;
+  font-size: 1.2rem;
+  padding-left: 0.5rem;
+}
+.all-retail-menu {
+  visibility: hidden;
+}
+
+@media (max-width: 430px) {
+  .nav-bar {
+    display: none;
+  }
+  .all-retail-menu {
+    visibility: visible;
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .recipe-search {
+    display: flex;
+    padding-top: 2rem;
+  }
+  .recipe-search input {
+    height: 1.7rem;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    width: 56%;
+  }
+  .recipe-list {
+    width: 100%;
+  }
+}
+
+.category-filter {
+  margin-bottom: 20px;
+  margin-left: 0.5rem;
+}
+.category-filter label {
+  font-size: 1rem;
+  color: #fff;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#recipe-category {
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}

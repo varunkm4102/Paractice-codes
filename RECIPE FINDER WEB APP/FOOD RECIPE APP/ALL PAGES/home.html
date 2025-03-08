@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food recipe | tutorials</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="../IMG/logo.jpg">
+    <link rel="stylesheet" href="../ALL CSS/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-bar">
+        <i class="fa-solid fa-xmark" id="Close"></i>
+        <div class="icon-container">
+          <div class="icon">
+            <img src="../IMG/logo.jpg" alt="logo">
+          </div>
+        </div>
+
+        <div class="menus">
+          <ul>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./all_recipe.html">All Recipes</a></li>
+            <li><a href="../ALL PAGES/fitness.html">Fitness</a></li>
+            <li><a href="../ALL PAGES/contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="login-container">
+          <div class="login-sign">
+            <p class="l-text">Sign In/Log In</p>
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider section -->
+      <swiper-container
+      id="sliderm"
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="true"
+        navigation="true"
+        space-between="30"
+        centered-slides="true"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+      >
+        <swiper-slide>
+          <img src="../IMG/f1.jpg" alt="food image" />
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="../IMG/f2.jpg" alt="food image" />
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="../IMG/f3.jpg" alt="food image" />
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="../IMG/f4.jpg" alt="food image" />
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="../IMG/f5.jpg" alt="food image" />
+        </swiper-slide>
+
+        <swiper-slide>
+          <img src="../IMG/f6.jpg" alt="food image" />
+        </swiper-slide>
+      </swiper-container>
+      <span id="g-menu" class="material-symbols-outlined">
+        menu
+        </span>    
+          <a href="../ALL PAGES/all_recipe.html" class="sli-btn"><button >Lets Make A Recipe!!</button></a>
+
+      <!-- recipe seggestion -->
+      <section class="recommended-container">
+        <h2>Recommendation</h2>
+        <div class="rec-ele-con">
+          <div class="rec-detail" onclick="goToRecipeDetails('Chiken Biryani')">
+            <img src="https://images.pexels.com/photos/12737817/pexels-photo-12737817.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Chiken Biryani" />
+            <div class="overlay">
+              <p class="overlay-text">
+                Chicken Biryani is a flavorful and aromatic dish that blends tender chicken with fragrant basmati rice and a rich blend of spices.
+              </p>
+            </div>
+          </div>
+
+          <div class="rec-detail" onclick="goToRecipeDetails('Aloo Paratha')">
+            <img src="https://images.pexels.com/photos/12737919/pexels-photo-12737919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Aloo Paratha" />
+            <div class="overlay">
+              <p class="overlay-text">
+                Aloo Paratha is a popular North Indian flatbread stuffed with a spiced potato filling. It's a comforting and satisfying dish that can be enjoyed for breakfast, lunch, or dinner, served with yogurt, pickle, or butter.
+              </p>
+            </div>
+          </div>
+
+          <div class="rec-detail" onclick="goToRecipeDetails('Samosa')">
+            <img src="https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Samosa" />
+            <div class="overlay">
+              <p class="overlay-text">
+                Samosa is a popular Indian snack made of crispy pastry filled with a spiced potato mixture. These triangular pastries are deep-fried to golden perfection and are perfect as a tea-time snack or appetizer, served with chutney or sauce.
+              </p>
+            </div>
+          </div>
+
+          <div class="rec-detail" onclick="goToRecipeDetails('Butter Chicken')">
+            <img src="https://wallpaperaccess.com/full/5912737.jpg" alt="butter chicken" />
+            <div class="overlay">
+              <p class="overlay-text">
+                Butter Chicken, also known as Murgh Makhani, is a beloved Indian dish made with tender chicken simmered in a rich and creamy tomato-based gravy. This dish is famous for its smooth texture, balanced spices, and the luxurious taste of butter and cream, making it a favorite in Indian cuisine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer-container">
+        <div class="footer-header">
+          <div class="footer-header-text">
+            <h1>MINES FOOD</h1>
+          </div>
+          <div class="footer-header-menu">
+            <ul>
+              <li><a href="#">FEEDBACK</a></li>
+              <li><a href="#">AUTHORS</a></li>
+              <li><a href="#">TERMS AND CONDITION</a></li>
+              <li><a href="#">PRIVACY AND POLICY</a></li>
+              <li><a href="#">ABOUT US</a></li>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">SUBSCRIBE</a></li>
+            </ul>
+          </div>
+          <div class="footer-header-icons">
+            <p>Follow us on</p>
+            <div class="footer-icons">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="fac"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="toi"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="youtube"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="instagram"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="linkdin"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="../IMG/all_icons.svg" alt="icons" id="koo"
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img
+                      src="../IMG/all_icons.svg"
+                      alt="icons"
+                      id="wikipeadia"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-body-container">
+          <div class="f-foodnames">
+            <div class="f-foodheader">
+              <h4>POPULAR PICKS</h4>
+              <hr />
+            </div>
+            <div class="f-foodmenu">
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Muradabadi Chicken Recipe</a></li>
+                  <li><a href="#">Gluten Free Foods</a></li>
+                  <li><a href="#">Lemon Mint Juice Recipe</a></li>
+                  <li><a href="#">Amla Juice Recipe</a></li>
+                  <li><a href="#">Chinease Recipe</a></li>
+                  <li><a href="#">Black Tea Recipe</a></li>
+                  <li><a href="#">Greek Salad Recipe</a></li>
+                  <li><a href="#">Ginger Tea Recipe</a></li>
+                </ul>
+              </div>
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Keema Recipe</a></li>
+                  <li><a href="#">virgin Mojito Recipe</a></li>
+                  <li><a href="#">Kashmiri Kahwa Recipe</a></li>
+                  <li><a href="#">Lemon Glass Juice Recipe</a></li>
+                  <li><a href="#">Lemon Ginger Juice Recipe</a></li>
+                  <li><a href="#">Gobhi Paratha Recipe</a></li>
+                  <li><a href="#">Apple Shake Recipe</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="f-foodnames">
+            <div class="f-foodheader">
+              <h4>POPULAR RECIPE</h4>
+              <hr />
+            </div>
+            <div class="f-foodmenu">
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Kadhai Chicken Recipe</a></li>
+                  <li><a href="#">Cold Coffee Recipe</a></li>
+                  <li><a href="#">Palak Paneer Recipe</a></li>
+                  <li><a href="#">Khichdi Recipe</a></li>
+                  <li><a href="#">Samosa Recipe</a></li>
+                  <li><a href="#">Upma Recipe</a></li>
+                  <li><a href="#">Chicken 65 Recipe</a></li>
+                  <li><a href="#">Chicken Manchurian Recipe</a></li>
+                </ul>
+              </div>
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Aloo Paratha Recipe</a></li>
+                  <li><a href="#">Puran Poli Racipe</a></li>
+                  <li><a href="#">RasGulla Recipe</a></li>
+                  <li><a href="#">Gulab Jamun Racipe</a></li>
+                  <li><a href="#">Lemon Rice Recipe</a></li>
+                  <li><a href="#">Veg Biryani Recipe</a></li>
+                  <li><a href="#">Sooji Halwa Recipe</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="f-foodnames">
+            <div class="f-foodheader">
+              <h4>RECIPE VIDEOS</h4>
+              <hr />
+            </div>
+            <div class="f-foodmenu">
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Aloo Paratha Recipe Video</a></li>
+                  <li><a href="#">Pav Bhaji Recipe Video</a></li>
+                  <li><a href="#" >Chicken Pizza Recipe Video</li>
+                  <li><a href="#">Dawali Clealing Tips</a></li>
+                  <li><a href="#">Perfect Pasta Tips</a></li>
+                  <li><a href="#">Gondh Ke Ladu Recipe Video</a></li>
+                  <li><a href="#">Andhara Mutton Roast Video</a></li>
+                </ul>
+              </div>
+              <div class="f-item-name">
+                <ul>
+                  <li><a onclick="goToRecipeDetails('Chiken Biryani')">Chicken Biryani Recipe Video</a></li>
+                  <li><a href="#">Shahi Paneer Recipe Video</a></li>
+                  <li><a href="#">Paneer Biryani Recipe Video</a></li>
+                  <li><a href="#">Samosa Recipe Video</a></li>
+                  <li><a href="#">Methi Paratha Recipe Video</a></li>
+                  <li><a href="#">Chicken Masala Recipe Video</a></li>
+                  <li><a href="#">Kerala Fish Recipe Video</a></li>
+                  <li><a href="#">Nachos Pizza Recipe Video</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="f-foodnames">
+            <div class="f-foodheader">
+              <h4>CUISINES</h4>
+              <hr />
+            </div>
+            <div class="f-foodmenu">
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Thai Food Recipe</a></li>
+                  <li><a href="#">Chinease Recipe</a></li>
+                  <li><a href="#">Bengali Food Recipe</a></li>
+                  <li><a href="#">Mughlai Recipe</a></li>
+                  <li><a href="#">Maxican Recipe</a></li>
+                  <li><a href="#">Rajasthani Recipe </a></li>
+                  <li><a href="#">Continental Food Recipe</a></li>
+                </ul>
+              </div>
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Jain Recipe</a></li>
+                  <li><a href="#">Asian Recipe</a></li>
+                  <li><a href="#">Panjabi Recipe</a></li>
+                  <li><a href="#">Italian Food Recipe</a></li>
+                  <li><a href="#">North Indian Food Recipe</a></li>
+                  <li><a href="#">South Indian Food Recipe</a></li>
+                  <li><a href="#">Satvik Recipe</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="f-foodnames">
+            <div class="f-foodheader">
+              <h4>COURSES & MEALS</h4>
+              <hr />
+            </div>
+            <div class="f-foodmenu">
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Salad Recipe</a></li>
+                  <li><a href="#">Kebab Recipe</a></li>
+                  <li><a href="#">Biryani Recipe</a></li>
+                  <li><a href="#">Veg Dinners</a></li>
+                  <li><a href="#">Breakfast Recipe</a></li>
+                  <li><a href="#">Finger Food Recipe</a></li>
+                  <li><a href="#">Snack Recipe</a></li>
+                </ul>
+              </div>
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Desserts & Sweets</a></li>
+                  <li><a href="#">Paratha Recipe</a></li>
+                  <li><a href="#">Dinner Recipe</a></li>
+                  <li><a href="#">Lunch Recipe</a></li>
+                  <li><a href="#">Veg Snacks</a></li>
+                  <li><a href="#">Appetizer Recipe</a></li>
+                  <li><a href="#">Soup Recipe</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="f-foodnames">
+            <div class="f-foodheader">
+              <h4>HEALTHY MEALS</h4>
+              <hr />
+            </div>
+            <div class="f-foodmenu">
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Diabetic Recipe</a></li>
+                  <li><a href="#">Cookies</a></li>
+                  <li><a href="#">Paratha Recipe</a></li>
+                  <li><a href="#">Snack Recipe</a></li>
+                  <li><a href="#">Party Snacks Recipe</a></li>
+                  <li><a href="#">Sandwich Recipe</a></li>
+                  <li><a href="#">Appetizer Recipe</a></li>
+                  <li><a href="#">Breakfast Recipe</a></li>
+                </ul>
+              </div>
+              <div class="f-item-name">
+                <ul>
+                  <li><a href="#">Low Cholesteral Recipe</a></li>
+                  <li><a href="#">Dinner Recipe</a></li>
+                  <li><a href="#">Salad Recipe</a></li>
+                  <li><a href="#">Soup Recipe</a></li>
+                  <li><a href="#">Dessers & Sweets </a></li>
+                  <li><a href="#">Kebab Recipe</a></li>
+                  <li><a href="#">Veg Snacks </a></li>
+                  <li><a href="#">Biryani Recipe </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Copyright 2024 Varun Designs.All rights reserved.Varun Recipes. | For reprint rights:Varun Designs</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <script src="../responsive.js"></script>
+    <script src="../recipeCon.js"></script>
+    <script src="../recipes-items.js"></script>
+    <script src="../card.js"></script>
+    <script src="../recipeCon.js"></script>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/1553cdc8ce.js" crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.recipe-details{
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.recipe-details h1{
+    color: #fff;
+    padding: .5rem 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+.recipe-details img{
+    width: 70%;
+    margin-left: 1rem;
+    border-radius: .3rem;
+}
+.recipe-details p{
+    color: #fff;
+    padding: .5rem 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.recipe-details h2{
+    color: #fff;
+    padding: .5rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.recipe-details ul{
+    margin: 0rem 2rem;
+    color: #e5d9d9;
+}
+.recipe-details li{
+    padding: .2rem 0rem;
+    font-family: sans-serif;
+}
+.recipe-details ol{
+    margin: 0rem 2rem;
+    color: #e5d9d9;
+}
+
+.video-container {
+    margin-top: 20px;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+.video-container iframe, 
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 430px){
+    .nav-bar{
+        /* display: block; */
+    }
+}
